@@ -1,54 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Pet shop</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div id="barraSuperior">
-            <ul>
-                <li>Grandes ofertas en comedores</li>
-                <li>Menu regional</li>
-                <ul>
-                    <li>idioma</li>
-                    <li>moneda</li>
-        </div>
-       <nav id="navegador">
-           <img src="./img/Logo pet.png" alt="Logo empresarial">
-           <p>Menu principal</p>
-           <ul type= "disc">
-               <li> <a href="paginaCategorias#"> Categorías </a> </li>
-               <li> <a href="paginaPets#"> Pets </a> </li>
-               <li> <a href="paginaNos#"> Nosotros </a> </li>
-               <li> <a href="paginaContacto#"> Contacto </a></li>
-            </ul>
-       </nav>
+      <section id="barraSuperior">
+        <ul>
+          <li>Grandes ofertas en comedores</li>
+          <li>idioma</li>
+          <li>moneda</li>
+        </ul>
+      </section>
+      <nav id="navegador">
+        
+        <p>Menu principal</p>
+        <ul type="disc">
+          <li><a href="paginaCategorias#"> Categorías </a></li>
+          <li><a href="paginaPets#"> Pets </a></li>
+          <li><a href="paginaNos#"> Nosotros </a></li>
+          <li><a href="paginaContacto#"> Contacto </a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="banner">
-            <img src="./img/bowl-and-pet-daities-on-green-background 1.jpg" alt="imagen ilustrativa">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <a href="tienda#"> <img src="./img/btn comederos.jpg" alt="boton de compra" title="¡Comprá ahora!"></a>  
-        </section>
-        <section id="productos">
-            <img src="./img/pawprint 1.jpg" alt="imagen de huella">
-            <h1>PRODUCTOS DESTACADOS</h1>
-            <p> <a href="paginaCategoriaComederos#"> Comederos </a> - <a href="paginaCategoriaAccesorios#"> Accesorios </a>  - <a href="paginaCategoriaComida#"> Comida </a>  </p>
-            <img src="./img/churrasquito.png" alt="imagen del producto">
-            <a href="alProducto#"> Juguete churrasquito</a>
-            <p>$150</p>
-            <img src="./img/comedero.png" alt="imagen del producto">
-            <a href="alProducto#"> Comedero para perro</a>
-            <p>$250</p>
-            <img src="./img/Huesito.png" alt="imagen del producto">
-            <a href="alProducto#"> Juguete huesito</a>
-            <p>$650</p>
-        </section>
+      <h1>¡Es un placer tenerte aquí! </h1>
+      <section id="banner">
+        
+        <p>¡Comederos en descuento!</p>
+        <a href="tienda#">
+          <img
+            src="./img/btn comederos.jpg"
+            alt="boton de compra"
+            title="¡Comprá ahora!"
+        /></a>
+      </section>
+      <section id="productos">
+        <img src="./img/pawprint 1.jpg" alt="imagen de huella" />
+        <h1>PRODUCTOS DESTACADOS</h1>
+        <p>
+          <a href="paginaCategoriaComederos#"> Comederos </a> -
+          <a href="paginaCategoriaAccesorios#"> Accesorios </a> -
+          <a href="paginaCategoriaComida#"> Comida </a>
+        </p>
+
+        <article>
+          <img src="./img/churrasquito.png" alt="imagen del producto" />
+          <a href="alProducto#"> Juguete churrasquito</a>
+          <p>$150</p>
+        </article>
+
+        <article>
+          <img src="./img/comedero.png" alt="imagen del producto" />
+          <a href="alProducto#"> Comedero para perro</a>
+          <p>$250</p>
+        </article>
+
+        <article>
+          <img src="./img/Huesito.png" alt="imagen del producto" />
+          <a href="alProducto#"> Juguete huesito</a>
+          <p>$650</p>
+        </article>
+      </section>
     </main>
-    <footer>Todos los derechos reservados Front End</footer>
-</body>
+    <footer>
+      <section class="footer">
+      <article>
+        <i class="fas fa-map-marker-alt"></i>
+        <p>Direccion</p>
+        <p>calle falsa 123</p>
+      </article>
+      <article>
+        <i class="fas fa-phone-alt"></i>
+        <p>telefono</p>
+        <p>0303456</p>
+      </article>
+      <article>
+        <i class="fas fa-envelope-square"></i>
+        <p>Correo electronico</p>
+        <p>@frontcatdog</p>
+        <p></p>
+      </article>
+    </section>
+    <section id=pie>
+      <p>Todos los derechos reservados Front End</p>
+    </section>
+    </footer>
+  </body>
 </html>

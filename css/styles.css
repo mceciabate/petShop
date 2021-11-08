@@ -1,0 +1,41 @@
+*{
+    font-family: roboto;
+}
+#barraSuperior{
+    background-color:#222222;
+    color: white;
+    align-items: center;
+
+}
+#navegador {
+    background-color: #F0A83E;
+    
+}
+#banner {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    
+}
+h1{
+    text-align: center;
+}
+
+.footer {
+    background-color: #3C2313;
+    color: white;
+    font-size: large;
+}
+
+#productos {
+    align-items: center;
+}
+
+#pie {
+    background-color: black;
+    color: white;
+}
+
+img {
+    align-items: center;
+}
