@@ -1,37 +1,83 @@
-*{
+*{  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: roboto;
 }
+
 #barraSuperior{
+    padding: 5px 40px ;
+    display: flex;
     background-color:#222222;
     color: white;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-
 }
+#menuSup {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 #navegador {
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    padding: 20px 40px;
     
 }
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
 #banner {
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.jpg);
-    
     background-repeat: no-repeat;
     background-size: cover;
     height: 409px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 100px;
 }
     
-}
 h1{
+    padding: 20px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+    
+
+#boton1{
+    border-radius: 10px;
+}
+
+#cabecera {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
 }
 
-.footer {
-    background-color: #3C2313;
-    color: white;
-    font-size: large;
+#prod {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
 }
-
-#productos {
+#art {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -39,7 +85,21 @@ h1{
     background-color: black;
     color: white;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #3C2313;
+    color: white;
+    font-size: large;
+    
+    padding-top: 40px;
 
-img {
-    align-items: center;
+}
+#contacto {
+
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+
 }
